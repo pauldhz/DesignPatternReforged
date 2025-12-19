@@ -1,4 +1,4 @@
-package org.denhez.designpattern.factorykit;
+package org.denhez.designpattern.factorykit.solution;
 
 public class Main {
 
