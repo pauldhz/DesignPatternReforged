@@ -3,11 +3,11 @@ package org.denhez.designpattern.factorykit.solution;
 public class Main {
 
     public static void main(String ...args) {
-        VehicleFactory vehicleFactory = VehicleFactory.factory((vehicleFactoryBuilder) -> {
-            vehicleFactoryBuilder.register("Moto", Moto::new);
-            vehicleFactoryBuilder.register("Car", Car::new);
+        VehicleFactory vehicleFactory = VehicleFactory.factory(builder -> {
+            builder.register("Car", Car::new);
+            builder.register("Moto", Moto::new);
         });
-
-        System.out.println(vehicleFactory.create("Moto"));
+        Vehicle vehicle = vehicleFactory.create("Car");
+        System.out.println(vehicle);
     }
 }
