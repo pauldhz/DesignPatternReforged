@@ -3,3 +3,5 @@
 
 ## Some theory questions
 - What is Instance Factory used for ?
+
+## Training History

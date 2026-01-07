@@ -9,3 +9,7 @@
 - What kind of design pattern factory kit is ? (creational, behavioral, structural)
 - What is factory kit composed of ?
 - Why is factory kit used for ?
+
+## Training History
+- 2025-01-04 : 12mn
+- 2025-01-07 : 9:42mn
